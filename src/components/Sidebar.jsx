@@ -1,4 +1,5 @@
 import { FaUser, FaGraduationCap, FaBook, FaStethoscope, FaTimes } from 'react-icons/fa';
+import Logo from '../assets/images/USJ-logo.png';
 
 export default function Sidebar({ sidebarOpen, setSidebarOpen, setContent, content }) {
     const handleClick = (newContent) => {
@@ -18,7 +19,7 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen, setContent, conte
                 {/* Centered logo */}
                 <div className="absolute left-0 right-0 flex justify-center pointer-events-none">
                     <img
-                        src="/src/assets/images/USJ-logo.png"
+                        src={Logo}
                         alt="Logo"
                         className="w-20 h-20 rounded-full"
                     />

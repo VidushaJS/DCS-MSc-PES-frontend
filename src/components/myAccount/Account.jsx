@@ -1,4 +1,5 @@
 import React from 'react'
+import ProfilePic from '../../assets/images/Profile.png'
 
 function Account() {
     return (
@@ -6,7 +7,7 @@ function Account() {
             <section className="bg-gray-200 rounded-xl p-6 mb-6">
                 <div className="flex flex-col md:flex-row md:items-center gap-6 mb-6">
                     <img
-                        src="/src/assets/images/Profile.png"
+                        src={ProfilePic}
                         alt="Profile"
                         className="rounded-full w-24 h-24 object-cover mx-auto md:mx-0"
                     />
