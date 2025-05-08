@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import Account from './components/myAccount/Account';
-
+import PerformancePage from './components/performance/PerformancePage'
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -23,7 +23,7 @@ function App() {
           <div className="max-w-4xl mx-auto">
             {/* Profile Section */}
             {content === "home" && <Account />}
-
+            {content === "performance" && <PerformancePage />}
           </div>
         </main>
       </div>
