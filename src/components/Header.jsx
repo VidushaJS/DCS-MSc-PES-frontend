@@ -12,7 +12,7 @@ export default function Header({ setSidebarOpen, sidebarOpen }) {
                         <FaBars className="text-xl" />
                     </button>
                     <div>
-                        <h1 className="font-bold text-lg md:text-xl font-mono">performance and Evaluation Service</h1>
+                        <h1 className="font-bold text-lg md:text-xl font-mono">Performance and Evaluation Service</h1>
                         <p className="text-sm md:text-base">MSc Programme</p>
                     </div>
                 </div>
